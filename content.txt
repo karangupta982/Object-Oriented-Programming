@@ -1,0 +1,41 @@
+why contructor is used or made?
+Ans: like when user runs facebook app then user will not connect itself to server or database for fetching the data these functionality will be done automatically
+when user runs the application. In constructor we initiate those methods which a user is not expected to do.
+
+
+What is self?
+Self is nothing but the object that we have created to access the attributes of class. We can verify by printing the id self and the object that 
+we have created, id is nothing but the memory location where the object is located inside the RAM. If we create multiple object of a class then 
+for every object there would be different memory locations of self for each object.
+
+
+# in static setter method self is not required to be given because it is static no need of any dynamic value to be used
+
+from outside we can not access parent overloaded methods using super keyword
+
+
+
+
+
+
+1. Class and Obj (example)
+2. Class has data/attribute and func/methods
+    > Code walkthrough
+    > attributes or contructor   get called itself, methods are called manually
+3. Why Python is called OOP? - everything in Python is an object (data structure, data type etc)
+4. Advantages of OOPS:
+    > You can create your own datatype
+    > code reusability
+    > debugging
+    > easy to colab
+
+
+5. End to end Project (Chatbook class)
+    > function vs method
+    > magic method or dunder method
+    > self
+    > You can create attribute outside class as well
+
+    > encapsulation
+    > getter and setter
+    > static method
