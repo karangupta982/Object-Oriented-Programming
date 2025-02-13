@@ -34,7 +34,7 @@ from outside we can not access parent overloaded methods using super keyword
     > function vs method
     > magic method or dunder method
     > self
-    > You can create attribute outside class as well
+    > You can create attribute outside class as well 
 
     > encapsulation
     > getter and setter

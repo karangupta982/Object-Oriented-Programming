@@ -1,11 +1,30 @@
 class chatbook:
 
+    __user_id = 1   #making a hidden variable, encapsulating the variable
+
     def __init__(self):
+        self.__name = "default"
+        self.id = chatbook.__user_id
+        chatbook.__user_id += 1
         self.userName = ''
         self.password = ''
         self.isLoggedIn = False
-        self.mainMenu()
+        # self.mainMenu()
 
+    @staticmethod
+    def get_id():
+        return chatbook.__user_id
+    
+    @staticmethod
+    def set_id(val):
+        chatbook.__user_id = val
+
+    def get_user(self):
+        return self.__name
+    
+    def set_user(self,name):
+        self.__name = name
+ 
 
     def mainMenu(self):
         userInput = input('''Welcome to chatbook how you woud like to proceed
